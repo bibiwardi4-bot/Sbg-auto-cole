@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Auto École Sabeg – Khenchela</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Auto École Sabeg</h1>
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#formations">Formations</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="accueil" class="hero">
+  <h2>Auto École Sabeg – Khenchela</h2>
+  <p>Permis de conduire catégorie B</p>
+  <a class="btn" href="https://wa.me/2136974755904">WhatsApp</a>
+</section>
+
+<section id="apropos">
+  <h2>À propos</h2>
+  <p>
+    Située à Khenchela, l’Auto École Sabeg propose une formation complète
+    au permis de conduire catégorie B avec des moniteurs qualifiés.
+  </p>
+</section>
+
+<section id="formations">
+  <h2>Formations</h2>
+  <ul>
+    <li>Cours de code de la route</li>
+    <li>Conduite pratique</li>
+    <li>Préparation aux examens</li>
+  </ul>
+</section>
+
+<section id="tarifs">
+  <h2>Tarifs</h2>
+  <table>
+    <tr><th>Service</th><th>Prix</th></tr>
+    <tr><td>Pack Code + Conduite</td><td>32 000 DA</td></tr>
+    <tr><td>Séance Code</td><td>1 000 DA</td></tr>
+    <tr><td>Séance Conduite</td><td>1 500 DA</td></tr>
+    <tr><td>Forfait Complet</td><td>45 000 DA</td></tr>
+  </table>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>📍 SBG Auto École, Khenchela</p>
+  <p>📞 00213 697 475 5904</p>
+</section>
+
+<footer>
+  <p>© 2025 Auto École Sabeg – Khenchela</p>
+</footer>
+
+</body>
+</html>

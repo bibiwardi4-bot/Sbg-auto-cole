@@ -34,6 +34,33 @@
       font-size: 14px;
     }
   </style>
+  .hero {
+  position: relative;
+  background-image: url('1762027946958.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 123, 255, 0.55);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
   <style>
 .whatsapp-float {
   position: fixed;
@@ -52,7 +79,13 @@
 </head>
   <a href="https://wa.me/2136974755904" class="whatsapp-float">💬</a>
 <body>
-
+  
+<header class="hero">
+  <div class="hero-content">
+    <h1>Auto École Sabeg</h1>
+    <p>Khenchela – Permis de conduire catégorie B</p>
+  </div>
+</header>
 <header>
   <header>
   <img src="file_000000005d2071f497ff6e058d7ba02f (1).png " alt="Auto École Sabeg" style="width:120px; margin-bottom:10px;">
